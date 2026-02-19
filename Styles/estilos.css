@@ -97,8 +97,10 @@ input:focus{
     gap: 15px;
 }
 .list_functions .btn{
-    border: solid 1px var(--gris-border);
-    
+    border: solid 1px var(--azul-oscuro-neurobank);
+}
+.list_functions i{
+    color: var(--azul-oscuro-neurobank);
 }
 .list_functions .btn:hover{
     background-color: var(--azul-neurobank);
@@ -549,6 +551,36 @@ footer img{
 footer a{
     color: white;
     text-decoration: none;
+}
+footer .slogan{
+    font-family: 'Edu NSW ACT Cursive', cursive;
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+}
+/******* inicio de sesion **********/
+.body_login{
+    background: linear-gradient(
+        to bottom,
+        var(--azul-neurobank),
+        white
+    );
+}
+#btn_login{
+    border-color: var(--azul-oscuro-neurobank);
+    background-color: transparent;
+    color: var(--azul-oscuro-neurobank);
+}
+#btn_login:hover{
+    background-color: var(--azul-oscuro-neurobank);
+    color: white;
+    transition: all 0.3s ease;
+}
+.body_login input:hover{
+    cursor:  var(--azul-neurobank);
+}
+.container_inputs{
+    border: 1px solid var(--azul-oscuro-neurobank);
 }
 /******** Responsive **********/
 @media (max-width: 743px) {
